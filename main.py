@@ -55,7 +55,9 @@ class Healer(Character):
     SPECIAL_SKILL = 'Защита'
 
 def start_training(character):
-    commands ={'attack': character.attack, 'defence': character.defence, 'special': character.special}
+    commands ={'attack': character.attack,
+               'defence': character.defence,
+               'special': character.special}
     """
     Принимает на вход имя и класс персонажа.
     Возвращает сообщения о результатах цикла тренировки персонажа.
